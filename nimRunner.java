@@ -9,6 +9,7 @@ public class nimRunner {
       while(true){
       String type = Board.gameMode();
 
+      // For one player
       if (type.equals("1")){
         int i = 0;
         int j = 0;
@@ -94,8 +95,8 @@ public class nimRunner {
         }
       }
 
+      // For 2 player
       else if (type.equals("2")){
-
         // Initiates Player names
         Player p1 = new Player(1);
         Player p2 = new Player(2);

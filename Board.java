@@ -18,6 +18,7 @@ public class Board {
         boardPieces -= pieces;
     } 
 
+    // A method to decide what kind of game a user is palying
     public static String gameMode(){
         Scanner input = new Scanner (System.in);
         System.out.println("Would you like to play with a computer or two player? (1/2)");
